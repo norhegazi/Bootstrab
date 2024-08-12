@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+body {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+.nono,button{
+    color: #050405;
+    background: rgb(106,101,193);
+    background: linear-gradient(90deg, rgba(106,101,193,1) 0%, rgba(154,99,149,1) 44%, rgba(195,63,179,1) 45%, rgba(159,99,144,1) 49%, rgba(159,99,144,1) 55%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+}
+h1,h2{
+    color: linear-gradient(90deg, rgb(120, 12, 192) 0%, rgba(154,99,149,1) 44%, rgba(195,63,179,1) 45%, rgba(159,99,144,1) 48%, rgba(99,154,159,1) 61%, rgba(0,212,255,1) 100%);
+    color: rgb(17, 7, 192);
+
+}
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(135deg, #d400ff 0%, #000000 100%);
+}
+.text-gradient {
+    background: -webkit-linear-gradient(45deg, #cc07ab, #070607);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.img {
+    height: 100px; 
+    background-size: cover;
+    background-position: center;
+}
+.position-relative {
+    position: relative;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(193,101,163);
+background: linear-gradient(90deg, rgba(193,101,163,1) 0%, rgba(154,99,149,1) 0%, rgba(195,63,194,1) 0%, rgba(133,103,154,1) 12%, rgba(86,111,172,1) 32%, rgba(120,105,159,1) 77%, rgba(124,104,157,1) 79%, rgba(159,99,144,1) 95%, rgba(99,114,159,1) 100%, rgba(124,108,153,1) 100%, rgba(0,212,255,1) 100%);
+    background-color: rgba(171, 228, 228, 0.5); /* Semi-transparent black overlay */
+    border-radius: 10px; /* Optional: Add rounded corners to the overlay */
+    z-index: -1; /* Ensure the overlay is behind the image */
+}
+
+img {
+    position: relative;
+    z-index: 1; /* Ensure the image appears above the overlay */
+}
